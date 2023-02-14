@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.fnav{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 6px;
+    background-color: rgb(42,42, 68);
+    color: rgb(221, 214, 214);
+}
+
+.fnav .left{
+    display: flex;
+    
+}
+.left img{
+width:12%;
+ padding-left: 10rem; 
+
+}
+.left input{
+    margin-inline: 60px;
+    width: 500px;
+    height: 35px;
+    border: none;
+    outline: none;
+    text-align:left;
+    margin-top: 10px;
+    margin-left: 4px;
+    border-radius: 5px;
+}
+.fnav .right{
+display: flex;
+margin-top: 15px;
+}
+.right p{
+    margin-inline: 22px;
+    font-size: 22px;
+
+}
+
+.right button{
+margin-inline: 22px;
+width: 80px;
+height: 27px;
+border: none;
+border-radius: 2px;
+background-color: rgb(241, 97, 121);
+color: white;
+cursor: pointer;
+
+}
+.right i{
+    margin-inline: 22px;
+     font-size: 22px;
+}
+.sec-nav{
+     display: flex;
+     justify-content: center;
+     justify-content: space-around;
+     padding: 9px;
+     background-color: rgb(26, 26, 48);
+     color: rgb(168, 157, 157);
+
+}
+.sec-nav .s-left{
+    display: flex; 
+
+}
+.sec-nav .s-right{
+    display: flex;
+    
+}
+.sec-nav p:hover{
+    color: pink;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.s-left p{
+    margin-inline-start:18px;
+
+}
+.s-right p{
+    margin-inline-start:22px;
+
+}
+.main img{
+
+    width: 100%;;
+    cursor: pointer;
+} 
+.container h2{
+   text-align: left;
+    padding: 22px;
+
+}
+.container .card{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.card img{
+    width: 15%;
+    margin-block: 15px;
+    border-radius: 10px;
+
+}
+.banner img{
+    width: 97%;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 44px;
+
+}
+.premiere{
+    background-color: rgb(28, 28, 55);
+    color: white;
+    padding: 100px;
+    margin-top: 50px;
+
+}
+
+
+.container .card{
+    margin-top: 11 px;
+
+
+}
+.footer{
+    background-color:#333338;
+    padding: 33px;
+    margin-top: 44px;
+}
+.footer img{
+    width: 20%;
+    margin-left: 39%;
+  
+}
+
+.footer .icon{
+    display: flex;
+    color: gray;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    
+    
+      
+}
+.icon i{
+    margin-inline: 21px;
+    font-size: 25px;
+    font-size: 36px;
+
+}
